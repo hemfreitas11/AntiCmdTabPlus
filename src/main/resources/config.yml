@@ -1,0 +1,55 @@
+# You can add any language by changing the name of the file in the "lang" folder and then adding that same language in the "language" option bellow.
+# Languages that come with the plugin are: en_US and pt_BR.
+language: en_US
+
+# If this option is true players will receive a message when they send a blocked command
+blocked-command-message: true
+
+# If this option is true players will receive a message when they type a blocked argument in a command
+blocked-arg-message: true
+
+# Block these commands from being typed
+blocked-commands:
+  - /help
+  - /ver
+  - /about
+
+# If a player types one of these arguments in a command, the command will be blocked. You can ignore commands from this function by adding them to the "ignored-commands" option bellow
+# Example: when a player types "/essentials help" or "/essentials version" he will get a message saying he doesn't have permission and the command will be blocked
+blocked-arguments:
+  - help
+  - version
+  - ver
+  - about
+  - author
+
+# These commands will be ignored from the above function
+# If a player types "/example help" or "/example version" the command will NOT be blocked
+ignored-commands:
+  - /example
+  - /example2
+  - /example3
+
+# Here you can set custom tab completions for commands
+custom-args-tab:
+  # This is the command that you want to edit the tab completion
+  help:
+    # This is the list of completions that will show when a player presses TAB
+    - maybe
+    - next
+    - time
+
+  help2:
+    - maybe
+    - next
+    - time
+
+  help3:
+    - maybe
+    - next
+    - time
+
+  help4:
+    - maybe
+    - next
+    - time

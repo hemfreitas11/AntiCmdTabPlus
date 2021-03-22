@@ -1,0 +1,3 @@
+error:
+  command-blocked: 'This command has been blocked.'
+  argument-blocked: 'This argument has been blocked.'

@@ -1,0 +1,6 @@
+name: AntiCommandTabPlus
+version: ${project.version}
+main: me.bkrmt.anticmdtabplus.AntiCmdTabPlus
+api-version: 1.13
+authors: [ Bkr__ ]
+description: Blocks commands from showing when the player presses tab in the chat.
